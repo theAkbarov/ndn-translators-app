@@ -1,0 +1,215 @@
+.teamcard{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 70px;
+	flex-direction: column;
+	&__minTitle{
+
+		font-size: 16px;
+		font-weight: 600;
+		display: inline-block;
+		color: #01A2E8;
+		margin-bottom: 15px;
+		text-align: center;
+		@media only screen and(max-width:576px){
+			font-size: 14px !important;
+		}
+	}	
+
+
+	&__title{
+		font-size: 30px;
+		font-weight: 600;
+		color: #02298A;
+		letter-spacing: -0.5px;
+		margin-bottom: 15px;
+		text-align: center;
+		@media only screen and(max-width:576px){
+			font-size: 27px !important;
+		}
+	}
+
+	&__text{
+		color: #888888;
+		font-size: 16px;
+		letter-spacing: -0.5px;
+		width: 54%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		line-height: 30px;
+		margin-bottom: 50px;
+		@media only screen and(max-width:576px){
+			font-size: 15px !important;
+			width: 100% !important;
+		}
+		
+	}
+
+	&-inner{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		@media only screen and(max-width:576px){
+			display: flex !important;
+			// flex-direction: column !important;
+		}
+		&-item{
+			width: 23% !important;
+			overflow: hidden;
+			position: relative;
+			@media only screen and(max-width:576px){
+				width: 100% !important;
+				margin-bottom: 30px;
+			}
+			&::before{
+				content: "";
+				width: 100%;
+				height: 100%;
+				background-color: rgba(255,255,255,0.2);
+				position: absolute;
+				top: 100%;
+				left: 0;
+				right: 0;
+				transition: all 0.3s ease 0s;
+				z-index: 5;
+				@media only screen and(max-width:576px){
+					display: none;
+				}
+			}
+			&:hover{
+				&::before{
+					top: 0 !important;
+				}
+
+				#icoo{
+					&::before , &::after{
+						width: 52px;
+					}
+				}
+
+			}
+			.our-team {
+
+				.team_img{
+					position: relative;
+					&-inner{
+						object-fit: contain;
+						width: 100%;
+    					height: auto;
+						vertical-align: middle;
+    					border-style: none;
+					}
+					.social{
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						background-color: #007fff;
+						width: 43px;
+						padding: 20px 0 10px 0;
+						border-radius: 0 0 20px 20px;
+						transform: translateY(-160px);
+						transition: all 0.3s ease 0s;
+						position: absolute;
+						top: -10px;
+						right: 10px;
+						z-index: 7;
+						@media only screen and(max-width:576px){
+							transform: translateY(160px) !important;
+							top: -160px !important;
+							margin: 0 !important;
+
+						}
+						&.active{
+							transform: translateY(0);
+							
+						}
+						li{
+							a{
+								padding-bottom: 10px;
+								padding: 0 5px 10px 5px ;
+								display: inline-block;
+								img{
+									width:  15px !important;
+									height: 15px !important;								
+								}
+							}
+						}
+					}
+					.team-content{
+						padding: 20px 0;
+    					background: #02298a;
+						text-align: center;
+						z-index: 10;
+						position: relative;
+						.title{
+							margin: 0;
+							font-weight: 600;
+							color: #fff;
+							text-transform: capitalize;
+							position: relative;
+							text-align: center;
+							position: relative;
+							&::after{
+								content: "";
+								position: absolute;
+								bottom: -20px;
+								right: 0;
+								left: 0;
+								margin: 0 auto;
+								width: 7px;
+								height: 7px;
+								border-radius: 50%;
+								background-color: #cea676;
+
+							}
+						}
+						.post{
+    						color: #d8d0d0;
+							font-size: 14px;
+							font-weight: 500;
+							position: relative;
+							
+							
+						}
+
+						.icoo{
+							margin-bottom: 10px;
+							margin-top: 10px;
+							display: inline-block;
+							width: 100%;
+							height: 4px;
+							
+							position: relative;
+							&::before{
+								content: "";
+								position: absolute;
+								width: 28px;
+								height: 2px;
+								background-color: #cea676;
+								top: 5.52px;
+								bottom: 0;
+								right: 137px;
+								transition-duration: 0.25s;
+							}
+							&::after{
+								content: "";
+								position: absolute;
+								width: 28px;
+								height: 2px;
+								background-color: #cea676;
+								top: 5.52px;
+								bottom: 0;
+								left: 137px;
+								transition-duration: 0.25s;
+							}
+							
+							
+						}
+					}
+				}
+			}
+		}
+	}
+}

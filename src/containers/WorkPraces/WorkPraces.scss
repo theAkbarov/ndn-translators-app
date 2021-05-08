@@ -1,0 +1,101 @@
+.work-process{
+	padding-top: 80px;
+	text-align: center;
+	&__minTitle{
+
+		font-size: 16px;
+		font-weight: 600;
+		display: inline-block;
+		color: #01A2E8;
+		margin-bottom: 15px;
+	}	
+
+
+	&__title{
+		font-size: 30px;
+		font-weight: 600;
+		color: #02298A;
+		letter-spacing: -0.5px;
+		margin-bottom: 15px;
+	}
+
+	&__text{
+		color: #888888;
+		font-size: 16px;
+		letter-spacing: -0.5px;
+		width: 54%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		line-height: 30px;
+		margin-bottom: 50px;
+		@media only screen and(max-width:576px){
+			width: 100%;
+			font-size: 15px;
+			letter-spacing: 0.3px;
+		}
+	}
+
+	&-inner{
+		display: flex;
+		justify-content: space-between;
+		@media only screen and(max-width:576px){
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+		&-card{
+			width: 22%;
+			background-color: #FFF;
+			box-shadow: 0px 0px 14px -6px  rgba(86, 102, 114, 0.46);
+			border-radius: 5px;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+			position: relative;
+			box-sizing: border-box;
+			padding: 22px 14px;
+			overflow: hidden;
+			transition: all ease-in-out .7s;
+			@media only screen and(max-width:576px){
+				width: 100%;
+				margin-bottom: 20px;
+			}
+			&-step{
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 13px 15px;
+				background-color: #0177E8;
+				color: #fff;
+				font-weight: 500;
+				border-bottom-right-radius: 30px;
+			}
+			&-icon{
+				margin-bottom: 6px;
+				&__img{
+					width: 80px !important;
+					height: 75px !important;
+					object-fit: cover;
+				}
+			}
+
+			&__title{
+				font-size: 18px;
+				color: #02298A;
+				font-weight: 600;
+				letter-spacing: -0.4px;
+				margin-bottom: 7px;
+			}
+
+			&__subTitle{
+				color: #888888;
+				font-size: 16px;
+				letter-spacing: -0.4px;
+				font-weight: 500;
+				line-height: 30px;
+			}
+		}
+	}
+
+}
