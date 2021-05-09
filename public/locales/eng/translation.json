@@ -1,0 +1,169 @@
+{
+  "sidebar": {
+    "home": "Home",
+    "about_us": "About",
+    "services": "Services",
+    "contacts": "Contact",
+    "call_us": "Call Us: +998935805259",
+    "copyright": "Copyright 2021. All Rights Reserved "
+  },
+  "workpraces": {
+    "upper_title": "How it works",
+    "title": "How it works",
+    "sub_title": "Lorem ipsum dolor sit amet, consectetur elit. Eius consequuntur ipsam blanditiis temporibus nostrum praesentium voluptatem amet aliquid laborum in.",
+    "1": {
+      "title": "Order Translations",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "2": {
+      "title": "Choose Package",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "3": {
+      "title": "Check Translation",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "4": {
+      "title": "Confirm Delivery",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+  },
+  "hero": {
+    "uptitle": "Professional Translators Agency",
+    "title": "Now order professional Translators in Just a Few Easy Clicks",
+    "subtitle": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis repellendus ratione nesciunt perspiciatis neque, atque optio repellat",
+    "contact_btn": "CONTACT US",
+    "learn_btn": "LEARN MORE"
+  },
+  "agency": {
+    "upper_title": "High Professional Translators Agency",
+    "title": "Order Professional Translations & Interpreting in Just a Few Clicks",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab voluptatem mollitia quibusdam? Consectetur expedita inventore voluptate velit laudantium mollitia quibusdam? Consectetur",
+    "1": {
+      "title": "Fast & Competitive Prices",
+      "text": "Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit ipsum dolor sit amet ipsum dolor si"
+    },
+    "2": {
+      "title": " Worldwide Translation Service",
+      "text": "Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit ipsum dolor sit amet ipsum dolor si"
+    },
+    "3": {
+      "title": "Dedicated Professional Team",
+      "text": "Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit ipsum dolor sit amet ipsum dolor si"
+    }
+  },
+  "services": {
+    "headline": "Services",
+    "breadcrum": {
+      "1": "HOME",
+      "2": "SERVICES"
+    },
+    "cards": {
+        "title":"OUR SERVICES",
+        "subtitle": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis repellendus ratione nesciunt perspiciatis neque, atque optio repellat",
+        "1": {
+            "title": "Documents Translation ",
+            "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+
+        },
+        "2": {
+            "title": "Apostile & Legalization",
+            "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+        },
+        "3": {
+            "title": "Localization Services",
+         "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+          },
+        "4": {
+            "title": "Website Translation",
+          "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+       
+          },
+        "5": {
+            "title": "Personal Translation",
+          "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+       
+          },
+        "6": {
+            "title": "Interpreting Services",
+          "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+       }
+    },
+    "banner": {
+        "upper_title": "Our Translation Professional Agency",
+        "title" : "Let’s create something new and awesome togeather",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, ipsam labore. Sunt iste a velit officia aperiam quod inventore sit amet, consectetur adipisicing elit. Ipsum ad,.",
+        "1": "Excellent quality",
+        "2": "Professional Team",
+        "3": "Competitive Prices",
+        "4": "24/7 Expert Support",
+        "5": "Express Post Delivery",
+        "6": "Turnaround by Email"
+
+    },
+     "languages" : {
+        "upper_title": "Professional Languages Translation",
+        "title" : "Languages We Cover",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, ipsam labore. Sunt iste a velit officia aperiam quod inventore sit amet, consectetur adipisicing elit. Ipsum ad,.",
+        "button" : "GET QUOTE",
+        "1": {
+            "title": "English Languages",
+            "text": "Iterative approaches to corporate strategy foster collaborative thinkin"
+        },
+        "2": {
+            "title": "German Languages",
+            "text": "Iterative approaches to corporate strategy foster collaborative thinkin"
+        },
+        "3": {
+            "title": "French Languages",
+            "text": " Iterative approaches to corporate strategy foster collaborative thinkin"
+        },
+        "4": {
+            "title": "Spanish Languages",
+            "text": "   Iterative approaches to corporate strategy foster collaborative thinking"
+        },
+        "5": {
+            "title": "Swedish Languages",
+            "text": "Iterative approaches to corporate strategy foster collaborative thinkin" },
+        "6": {
+            "title": "Japanese Languages",
+            "text": " Iterative approaches to corporate strategy foster collaborative thinkin"
+        }
+    }
+  },
+  "team": {
+      "upper_title": "Our Creative Teamdax",
+      "title": "Our Awesome Team",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab voluptatem mollitia quibusdam? Consectetur expedita inventore voluptate velit laudantium mollitia quibusdam? Consectetur",
+    "1": {
+      "title": "Randy crishen",
+      "text": "Out Company CEO"
+    },
+    "2": {
+      "title": " Randy crishen",
+      "text": "Professional Translator"
+    },
+    "3": {
+      "title": "Randy crishen",
+      "text": "Business Consultant"
+    },
+    "4": {
+      "title": "Randy crishen",
+      "text": "Our Company CEO"
+    }
+  },
+  "contacts" : {
+      "title": "Contact Us",
+      "home": "Home",
+      "card" : {
+          "title": "Contact Us",
+          "heading": "Get in Touch", 
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "address" : "Address",
+        "mail" : "Email",
+        "phone": "Phone"
+
+      }
+  }
+
+}

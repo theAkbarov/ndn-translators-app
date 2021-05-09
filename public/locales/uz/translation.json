@@ -1,0 +1,170 @@
+{
+"sidebar": {
+    "home": "Bosh sahifa",
+    "about_us": "Biz Haqimizda",
+    "services": "Hizmatlar",
+    "contacts": "Bog'lanish",
+    "call_us": "bizga qo'ng'iroq qiling: +998935805259",
+    "copyright": "Mualliflik huquqi 2021. Barcha huquqlar himoyalangan "
+  },
+  "workpraces" : {
+    "upper_title" : "Qanday ishlaymiz",
+    "title" : "Qanday ishlaymiz",
+    "sub_title" : "Lorem ipsum dolor sit amet, consectetur elit. Eius consequuntur ipsam blanditiis temporibus nostrum praesentium voluptatem amet aliquid laborum in.",
+    "1": {
+        "title": "Tarjimalarga buyurtma berish",
+        "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "2": {
+        "title": "Paketni tanlash",
+        "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "3": {
+        "title": "Tarjimani tekshirish",
+        "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "4": {
+        "title": "Yetkazib berishni tasdiqlang",
+        "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+  },
+  "hero": {
+      "uptitle": "Professional Tarjimonlar agentligi",
+      "title": "Endi professional tarjimonlarga buyurtmalarni bir necha oson bosish orqali buyurtma qiling",
+      "subtitle" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis repellendus ratione nesciunt perspiciatis neque, atque optio repellat",
+      "contact_btn" : "BIZ BILAN BOG'LANISH",
+      "learn_btn" : "BATAFSIL MA'LUMOT"
+  },
+  "agency" :{
+      "upper_title": "Yuqori professional tarjimonlar agentligi",
+      "title" : "Bir necha marta bosish orqali professional tarjimalar va tarjimalarga buyurtma bering",
+      "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab voluptatem mollitia quibusdam? Consectetur expedita inventore voluptate velit laudantium mollitia quibusdam? Consectetur",
+      "1" : {
+          "title": "Tezkor va raqobatbardosh narxlar",
+          "text" : "Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit ipsum dolor sit amet ipsum dolor si"
+      },
+      "2" : {
+          "title": "Butunjahon tarjima xizmati",
+          "text" : "Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit ipsum dolor sit amet ipsum dolor si"
+
+      },
+      "3" : {
+          "title": "Maxsus professional jamoa",
+          "text" : "Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit ipsum dolor sit amet ipsum dolor si"
+      }
+  },
+  "services": {
+    "headline": "Xizmatlar",
+    "breadcrum": {
+      "1": "ASOSIY",
+      "2": "XIZMATLAR"
+    },
+    "cards": {
+        "title":"BIZNING XIZMATLARIMIZ",
+        "subtitle": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis repellendus ratione nesciunt perspiciatis neque, atque optio repellat",
+        "1": {
+            "title": "Hujjatlar tarjimasi ",
+            "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+
+        },
+        "2": {
+            "title": "Apostil va qonuniylashtirish",
+            "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+        },
+        "3": {
+            "title": "Mahalliylashtirish xizmatlari",
+         "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+          },
+        "4": {
+            "title": "Veb-sayt tarjimasi",
+          "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+       
+          },
+        "5": {
+            "title": "Shaxsiy tarjima",
+          "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+       
+          },
+        "6": {
+            "title": "Tarjima qilish bo'yicha xizmatlar",
+          "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+       }
+    },
+    "banner": {
+        "upper_title": "Our Translation Professional Agency",
+        "title" : "Keling, birgalikda yangi va ajoyib narsalarni yarataylik",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, ipsam labore. Sunt iste a velit officia aperiam quod inventore sit amet, consectetur adipisicing elit. Ipsum ad,.",
+        "1": "Zo'r sifat",
+        "2": "Professional jamoa",
+        "3": "Raqobatbardosh narxlar",
+        "4": "24/7 mutaxassislarni qo'llab-quvvatlash",
+        "5": "Tezkor etkazib berish",
+        "6": "Elektron pochta orqali o'zgartirish"
+
+    },
+     "languages" : {
+        "upper_title": "Professional tillarni tarjima qilish",
+        "title" : "Biz biladigan tillar",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, ipsam labore. Sunt iste a velit officia aperiam quod inventore sit amet, consectetur adipisicing elit. Ipsum ad,.",
+        "button" : "SAVOLNI OLING",
+        "1": {
+            "title": "Ingliz tillari",
+            "text": "Korporativ strategiya bo'yicha takroriy yondashuvlar, birgalikda ishlaydigan ingichka narsalarga yordam beradi"
+        },
+        "2": {
+            "title": "Nemis tillari",
+            "text": "Korporativ strategiya bo'yicha takroriy yondashuvlar, birgalikda ishlaydigan ingichka narsalarga yordam beradi"
+        },
+        "3": {
+            "title": "Frantsuz tillari",
+            "text": "Korporativ strategiya bo'yicha takroriy yondashuvlar, birgalikda ishlaydigan ingichka narsalarga yordam beradi"
+        },
+        "4": {
+            "title": "Ispan tillari",
+            "text": "Korporativ strategiya bo'yicha takroriy yondashuvlar, birgalikda ishlaydigan ingichka narsalarga yordam beradi"
+        },
+        "5": {
+            "title": "Shved tillari",
+            "text": "Korporativ strategiya bo'yicha takroriy yondashuvlar, birgalikda ishlaydigan ingichka narsalarga yordam beradi"
+}
+,        "6": {
+            "title": "Yapon tillari",
+            "text": "Korporativ strategiya bo'yicha takroriy yondashuvlar, birgalikda ishlaydigan ingichka narsalarga yordam beradi"
+        }
+    }
+  },
+    "team": {
+      "upper_title": "Bizning Creative Teamdax",
+      "title": "Bizning Creative Teamdax",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab voluptatem mollitia quibusdam? Consectetur expedita inventore voluptate velit laudantium mollitia quibusdam? Consectetur",
+    "1": {
+      "title": "Randy crishen",
+      "text": "Kompaniyamizning bosh direktori"
+    },
+    "2": {
+      "title": " Randy crishen",
+      "text": "Professional tarjimon"
+    },
+    "3": {
+      "title": "Randy crishen",
+      "text": "Biznes bo'yicha maslahatchi"
+    },
+    "4": {
+      "title": "Randy crishen",
+      "text": "Kompaniyamizning bosh direktori"
+    }
+  },
+  "contacts" : {
+      "title": "Biz bilan bog'lanish",
+      "home": "Asosiy",
+      "card" : {
+          "title": "Biz bilan bog'lanish",
+          "heading": "Aloqa qiling", 
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "address" : "Manzil",
+        "mail" : "Email",
+        "phone": "Telefon"
+
+      }
+  }
+}

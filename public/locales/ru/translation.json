@@ -1,0 +1,173 @@
+{
+"sidebar": {
+    "home": "Дом",
+    "about_us": "О нас",
+    "services": "Сервисы",
+    "contacts": "контакты",
+    "call_us": "Позвоните нам: +998935805259",
+    "copyright": "Copyright 2021. Все права защищены. "
+  },
+  "workpraces" : {
+    "upper_title" : "Как это работает",
+    "title" : "Как это работает",
+    "sub_title" : "Lorem ipsum dolor sit amet, consectetur elit. Eius consequuntur ipsam blanditiis temporibus nostrum praesentium voluptatem amet aliquid laborum in.",
+    "1": {
+        "title": "Заказать перевод",
+        "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "2": {
+        "title": "Выберите пакет",
+        "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "3": {
+        "title": "Проверить перевод",
+        "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "4": {
+        "title": "Подтвердите доставку",
+        "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+  },
+  "hero": {
+      "uptitle": "Агентство профессиональных переводчиков",
+      "title": "Закажите профессиональных переводчиков всего за несколько простых кликов",
+      "subtitle" : "Большая часть текста сделана из разделов 1.10.32–3 книги Цицерона «На грани Добра и Зла»  является первой известной",
+      "contact_btn" : "СВЯЖИТЕСЬ С НАМИ",
+      "learn_btn" : "УЧИТЬ БОЛЬШЕ",
+    "call_us": "Позвоните нам: +998935805259",
+    "copyright": "Copyright 2021. Все права защищены. "
+  },
+    "agency" :{
+      "upper_title": "Высокопрофессиональное бюро переводов",
+      "title" : "Заказывайте профессиональные переводы и переводы в несколько кликов",
+      "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab voluptatem mollitia quibusdam? Consectetur expedita inventore voluptate velit laudantium mollitia quibusdam? Consectetur",
+      "1" : {
+          "title": "Быстрые и конкурентоспособные цены",
+          "text" : "Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit ipsum dolor sit amet ipsum dolor si"
+      },
+      "2" : {
+          "title": "Служба перевода мира",
+          "text" : "Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit ipsum dolor sit amet ipsum dolor si"
+
+      },
+      "3" : {
+          "title": "Специальная профессиональная команда",
+          "text" : "Lorem ipsum dolor sit amet, conse ctetur dolor adipisicing elit ipsum dolor sit amet ipsum dolor si"
+      }
+  },
+   "services": {
+    "headline": "Услуги",
+    "breadcrum": {
+      "1": "ДОМ",
+      "2": "СЕРВИСЫ"
+    },
+    "cards": {
+        "title":"НАШИ СЕРВИСЫ",
+        "subtitle": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis repellendus ratione nesciunt perspiciatis neque, atque optio repellat",
+        "1": {
+            "title": "Перевод документов",
+            "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+
+        },
+        "2": {
+            "title": "Апостиль и легализация",
+            "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+        },
+        "3": {
+            "title": "Услуги по локализации",
+         "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+          },
+        "4": {
+            "title": "Перевод веб-сайтов",
+          "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+       
+          },
+        "5": {
+            "title": "Персональный перевод",
+          "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+       
+          },
+        "6": {
+            "title": "Услуги переводчика",
+          "text" :"   Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu. "
+       }
+    },
+    "banner": {
+        "upper_title": "Наше бюро переводов",
+        "title" : "Давайте вместе создадим что-то новое и интересное",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, ipsam labore. Sunt iste a velit officia aperiam quod inventore sit amet, consectetur adipisicing elit. Ipsum ad,.",
+        "1": "Превосходное качество",
+        "2": "Профессиональная команда",
+        "3": "Конкурентные цены",
+        "4": "24/7 экспертная поддержка",
+        "5": "Express Post Delivery",
+        "6": "Обработка по электронной почте"
+    },
+     "languages" : {
+        "upper_title": "Перевод на профессиональные языки",
+        "title" : "Языки, на которых мы работаем",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ad, ipsam labore. Sunt iste a velit officia aperiam quod inventore sit amet, consectetur adipisicing elit. Ipsum ad,.",
+        "button" : "ПОЛУЧИТЬ ЦИТАТУ",
+        "1": {
+            "title": "Английский язык",
+            "text": "Итерационные подходы к корпоративной стратегии способствуют совместному мышлению"
+        },
+        "2": {
+            "title": "Немецкие языки",
+            "text": "Итерационные подходы к корпоративной стратегии способствуют совместному мышлению"
+        },
+        "3": {
+            "title": "Французские языки",
+            "text": "Итерационные подходы к корпоративной стратегии способствуют совместному мышлению"
+        },
+        "4": {
+            "title": "Испанские языки",
+            "text": "Итерационные подходы к корпоративной стратегии способствуют совместному мышлению"
+
+        },
+        "5": {
+            "title": "Шведские языки",
+            "text": "Итерационные подходы к корпоративной стратегии способствуют совместному мышлению"
+        },
+        "6": {
+            "title": "Японские языки",
+            "text": "Итерационные подходы к корпоративной стратегии способствуют совместному мышлению"
+
+        }
+    }
+  },
+    "team": {
+      "upper_title": "Наш творческий коллективdax",
+      "title": "Наша замечательная команда",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab voluptatem mollitia quibusdam? Consectetur expedita inventore voluptate velit laudantium mollitia quibusdam? Consectetur",
+    "1": {
+      "title": "Randy crishen",
+      "text": "Генеральный директор нашей компании"
+    },
+    "2": {
+      "title": " Randy crishen",
+      "text": "Профессиональный переводчик"
+    },
+    "3": {
+      "title": "Randy crishen",
+      "text": "Бизнес-консультант"
+    },
+    "4": {
+      "title": "Randy crishen",
+      "text": "директор нашей компании"
+    }
+  },
+  "contacts" : {
+      "title": "Свяжитесь с нами",
+      "home": "Дом",
+      "card" : {
+          "title": "Свяжитесь с нами",
+          "heading": "Связаться", 
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "address" : "Адрес",
+        "mail" : "Электронное письмо",
+        "phone": "Телефон"
+
+      }
+  }
+}
