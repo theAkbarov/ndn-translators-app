@@ -5,49 +5,53 @@ import './Header.scss'
 
 
 
-
 import { useTranslation } from "react-i18next";
+import { useRef, useState } from 'react';
 
 const Header = () => {
-	
+
   const { t, i18n } = useTranslation();
 
 
-	window.addEventListener('scroll', () => {
-		const Header = document.querySelector('.header')
-		if (window.scrollY > 95) {
-			Header.style.background = "#D6DFEE"
-			document.getElementById('header-links').classList.add('color-header')
-		} else {
-			Header.style.background = "transparent"
-			document.getElementById('header-links').classList.remove('color-header')
-		}
-	})
+  window.addEventListener('scroll', () => {
+    const Header = document.querySelector('.header')
+    if (window.scrollY > 95) {
+      Header.style.background = "#D6DFEE"
+      document.getElementById('header-links').classList.add('color-header')
+    } else {
+      Header.style.background = "transparent"
+      document.getElementById('header-links').classList.remove('color-header')
+    }
+  })
 
 
 
-	function BurgerButton() {
-		const menuWrapper = document.querySelector('#menu-mobile');
-		menuWrapper.classList.toggle('active')
-		document.getElementById('body').classList.toggle('no-scrol')
-		document.getElementById('burger-icon').classList.toggle('none')
-		// document.getElementById('closs-icon').classList.toggle('show')
+  function BurgerButton() {
+    const menuWrapper = document.querySelector('#menu-mobile');
+    menuWrapper.classList.toggle('active')
+    document.getElementById('body').classList.toggle('no-scrol')
+    document.getElementById('burger-icon').classList.toggle('none')
+    // document.getElementById('closs-icon').classList.toggle('show')
 
-	}
+  }
 
-	const handleClick = (lang) => {
-		i18n.changeLanguage(lang);
-	}
-	
-	function ClosseBurgerMenu() {
-		const menuWrapper = document.querySelector('#menu-mobile');
-		menuWrapper.classList.remove('active')
-		document.getElementById('body').classList.remove('no-scrol')
-		document.getElementById('burger-icon').classList.remove('none')
-		
-	}
+  const handleClick = (lang) => {
+    i18n.changeLanguage(lang);
+  }
+const [isOpen, setIsOpen] = useState(false);
+  const handleDropdownClick = () => {
+    setIsOpen(!isOpen);
+  };
 
-	return (
+  function ClosseBurgerMenu() {
+    const menuWrapper = document.querySelector('#menu-mobile');
+    menuWrapper.classList.remove('active')
+    document.getElementById('body').classList.remove('no-scrol')
+    document.getElementById('burger-icon').classList.remove('none')
+
+  }
+
+  return (
     <header className="header">
       <div className="header-inner container">
         <Link to={`/`} className="header-inner-left">
@@ -105,10 +109,18 @@ const Header = () => {
           </nav>
 
           <div className="header-inner-links">
-            <div className="wrapper">
-              <button onClick={() => handleClick("eng")}>ENG</button>
-              <button onClick={() => handleClick("ru")}>RU</button>
-              <button onClick={() => handleClick("uz")}>UZ</button>
+            <div className="dropdown-wrapper">
+              <button
+                onClick={() => handleDropdownClick()}
+                className="dropdown-opener"
+              >
+                🌐
+              </button>
+              <div className={`dropdown-content ${isOpen ? "active" : ""}`}>
+                <button onClick={() => handleClick("eng")}>ENG</button>
+                <button onClick={() => handleClick("ru")}>RU</button>
+                <button onClick={() => handleClick("uz")}>UZ</button>
+              </div>
             </div>
             <a
               href="https://www.facebook.com/translators.uz"

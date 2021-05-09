@@ -182,4 +182,46 @@
 	}
 }
 
+.dropdown-wrapper{
+	position: relative;
+	transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) all 0.5s;
+	.dropdown-opener{
+		font-size: 30px;
+		background: none;
+		border: none;
+		cursor: pointer;
+	}
+	.dropdown-content{
+		transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) all 0.2s;
+		position: absolute;
+		opacity: 0;
+		height: 0;
+		transform: translate3d(0, -20px, 0);
+		overflow: hidden;
+		top: 40px;
+		border-radius: 5px;
+		background: white;
+		width: 60px;
+		&.active {
+			height: 75px;
+		transform: translate3d(0, 0, 0);
 
+		opacity: 1;
+
+		transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) all 0.5s;
+
+		}
+		button{
+			display: block;
+			width: 100%;
+			padding:  5px 12px;
+			background: none;
+			border: none;
+			text-align: left;
+			cursor: pointer;
+			&:hover{
+				background: rgba(0, 0, 0, 0.151);
+			}
+		}
+	}
+}
