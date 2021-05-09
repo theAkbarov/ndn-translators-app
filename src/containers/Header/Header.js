@@ -105,9 +105,11 @@ const Header = () => {
           </nav>
 
           <div className="header-inner-links">
-            <button onClick={() => handleClick("eng")}>ENG</button>
-            <button onClick={() => handleClick("ru")}>RU</button>
-            <button onClick={() => handleClick("uz")}>UZ</button>
+            <div className="wrapper">
+              <button onClick={() => handleClick("eng")}>ENG</button>
+              <button onClick={() => handleClick("ru")}>RU</button>
+              <button onClick={() => handleClick("uz")}>UZ</button>
+            </div>
             <a
               href="https://www.facebook.com/translators.uz"
               target="blabk"

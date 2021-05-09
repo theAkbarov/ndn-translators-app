@@ -28,6 +28,10 @@
         "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     }
   },
+    "about" : {
+    "home": "Дом",
+    "title": "О нас"
+  },
   "hero": {
       "uptitle": "Агентство профессиональных переводчиков",
       "title": "Закажите профессиональных переводчиков всего за несколько простых кликов",

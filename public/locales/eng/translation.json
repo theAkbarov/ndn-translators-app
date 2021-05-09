@@ -28,6 +28,10 @@
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     }
   },
+  "about" : {
+    "home": "Home",
+    "title": "About"
+  },
   "hero": {
     "uptitle": "Professional Translators Agency",
     "title": "Now order professional Translators in Just a Few Easy Clicks",

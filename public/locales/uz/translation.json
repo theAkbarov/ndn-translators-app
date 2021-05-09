@@ -28,6 +28,10 @@
         "subtitle" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     }
   },
+    "about" : {
+    "home": "Asosiy",
+    "title": "Biz haqimizda"
+  },
   "hero": {
       "uptitle": "Professional Tarjimonlar agentligi",
       "title": "Endi professional tarjimonlarga buyurtmalarni bir necha oson bosish orqali buyurtma qiling",
