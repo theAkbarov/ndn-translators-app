@@ -37,6 +37,8 @@ const Header = () => {
 
   const handleClick = (lang) => {
     i18n.changeLanguage(lang);
+    setIsOpen(!isOpen);
+
   }
 const [isOpen, setIsOpen] = useState(false);
   const handleDropdownClick = () => {
